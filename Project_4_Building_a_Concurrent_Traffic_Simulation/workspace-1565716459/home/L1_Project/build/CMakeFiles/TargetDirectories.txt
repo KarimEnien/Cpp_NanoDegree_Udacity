@@ -1,3 +1,0 @@
-/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1565716459/home/L1_Project/build/CMakeFiles/rebuild_cache.dir
-/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1565716459/home/L1_Project/build/CMakeFiles/traffic_simulation.dir
-/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1565716459/home/L1_Project/build/CMakeFiles/edit_cache.dir
