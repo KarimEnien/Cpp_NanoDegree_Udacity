@@ -1,0 +1,8 @@
+Exercise: Building a generic message queue
+The code we have produced to manage waiting vehicles in our traffic simulation is in fact a very generic piece of code. Instead of passing Vehicle objects, it could very easily be modified to pass almost any kind of object or data type between two vector. So what we have created could be easily described as a generic message queue.
+
+The following changes are required to turn the WaitingVehicles queue into a generic message queue:
+
+Enable the class for templates by prepending template<class T> and change the name of the class to MessageQueue
+Replace the std::vector by a std::deque as it makes more sense to retrieve the objects in the order "first-in, first-out (FIFO)". Also, rename it to _messages.
+Adapt the method pushBack for use with templates and rename it send. Do the same with popBack and rename it to receive.

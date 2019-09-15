@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/Intersection.h
+vector
+-
+future
+-
+memory
+-
+TrafficObject.h
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/TrafficObject.h
+
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/Street.h
+TrafficObject.h
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/TrafficObject.h
+
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/TrafficObject.h
+vector
+-
+thread
+-
+
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/Vehicle.cpp
+iostream
+-
+random
+-
+Street.h
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/Street.h
+Intersection.h
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/Intersection.h
+Vehicle.h
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/Vehicle.h
+
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/Vehicle.h
+TrafficObject.h
+/home/karim/CppND/cpp_nanodegree/Project_4_Building_a_Concurrent_Traffic_Simulation/workspace-1566191899/home/L2_Project/src/TrafficObject.h
+

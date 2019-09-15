@@ -1,0 +1,9 @@
+#!/bin/bash
+
+g++ -o compiled.o main.cpp -lncurses -std=c++1y -Wall 
+#-Weffc++ -Winit-self 
+./a.out
+
+g++ -o compiled.o *.cpp -lncurses -std=c++1y -Wall // create gc_pointer.cpp, gc_details.cpp and gc_iterator.cpp and compile them with this command
+
+

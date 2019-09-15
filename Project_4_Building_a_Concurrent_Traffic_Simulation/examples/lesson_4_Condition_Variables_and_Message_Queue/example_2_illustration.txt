@@ -1,0 +1,14 @@
+Creating an infinite polling loop
+While the pushBack method is used by the threads to add data to the monitor incrementally, the main thread uses printSize at the end to display all the results at once. Our goal is to change the code in a way that the main thread gets notified every time new data becomes available. But how can the main thread know whether new data has become available? The solution is to write a new method that regularly checks for the arrival of new data.
+
+In the code listed below, a new method dataIsAvailable() has been added while printIDs() has been removed. This method returns true if data is available in the vector and false otherwise. Once the main thread has found out via dataIsAvailable() that new data is in the vector, it can call the method popBack() to retrieve the data from the monitor object. Note that instead of copying the data, it is moved from the vector to the main method.
+
+Image
+
+In the main thread, we will use an infinite while-loop to frequently poll the monitor object and check whether new data has become available. Contrary to before, we will now perform the read operation before the workers are done - so we have to integrate our loop before wait() is called on the futures at the end of main(). Once a new Vehicle object becomes available, we want to print it within the loop.
+
+When we execute the code, we get a console output similar to the one listed below:
+
+Image
+
+From the output it can easily be seen, that adding and removing to and from the monitor object is now interleaved. When executed repeatedly, the order of the vehicles will most probably differ between executions.
