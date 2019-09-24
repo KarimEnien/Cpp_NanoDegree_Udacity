@@ -1,0 +1,8 @@
+prefix=/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/install
+
+Name: seven_dof_arm_gazebo
+Description: Description of seven_dof_arm_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/install/lib 
+Requires: 

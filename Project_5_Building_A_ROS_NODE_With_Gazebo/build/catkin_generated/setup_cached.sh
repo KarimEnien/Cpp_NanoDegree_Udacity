@@ -8,6 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/devel/lib:$LD_LIBRARY_PATH"
 export PWD="/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/build"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/devel/share/common-lisp"
 export ROS_PACKAGE_PATH="/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/src:$ROS_PACKAGE_PATH"
