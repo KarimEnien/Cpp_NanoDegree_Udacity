@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/build/gtest/cmake_install.cmake")
+  include("/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/build/robot_demo_movement_pkg/cmake_install.cmake")
   include("/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/build/mastering_ros_robot_description_pkg/cmake_install.cmake")
   include("/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/build/seven_dof_arm_gazebo/cmake_install.cmake")
 
