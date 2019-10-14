@@ -1,0 +1,11 @@
+number_count= 0.900000
+number_count= 0.000000
+number_count= 0.100000
+number_count= 0.200000
+number_count= 0.300000
+number_count= 0.400000
+number_count= 0.500000
+number_count= 0.600000
+number_count= 0.700000
+number_count= 0.800000
+number_count= 0.900000

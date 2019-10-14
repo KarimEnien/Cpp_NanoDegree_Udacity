@@ -25,7 +25,6 @@ std_msgs::Float64 home_val;
 
 void controller::mainLoop()
 {
-	//std::unique_ptr<logger> log(new logger);
 
 	setHomePoisition(0.0);
 	demoMovement();
@@ -34,11 +33,13 @@ void controller::mainLoop()
 
 void controller::demoMovement()
 {
-
+		std::unique_ptr<logger> log(new logger);
 		// allocate a publlisher object and have it owned by std::unique_ptr, setting the buffer size ot 1000.
 		std::unique_ptr<publisher> pub(new publisher(1000));
 		//Create a rate object.
 		ros::Rate loop_rate(loopRate);
+		// Creating a string to write to output file
+		std::string str;
 		// Creating the main while loop in the app.
 		while(ros::ok())
 		{
@@ -70,6 +71,9 @@ void controller::demoMovement()
 		//Sleeping for sometime
 		loop_rate.sleep();
 
+		// Writing to a file
+		str = "number_count= " + std::to_string(number_count);
+		log->writeToFile(str);
 		//Incrementing the count
 		number_count = number_count + 0.1;
 		}
