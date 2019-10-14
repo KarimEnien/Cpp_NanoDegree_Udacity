@@ -27,6 +27,8 @@ ros/ros.h
 /home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/src/robot_demo_movement_pkg/src/ros/ros.h
 std_msgs/Float64.h
 /home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/src/robot_demo_movement_pkg/src/std_msgs/Float64.h
+std_msgs/String.h
+/home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/src/robot_demo_movement_pkg/src/std_msgs/String.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h
@@ -675,6 +677,22 @@ ros/forwards.h
 /opt/ros/melodic/include/rosconsole/macros_generated.h
 
 /opt/ros/melodic/include/std_msgs/Float64.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/opt/ros/melodic/include/std_msgs/String.h
 string
 -
 vector

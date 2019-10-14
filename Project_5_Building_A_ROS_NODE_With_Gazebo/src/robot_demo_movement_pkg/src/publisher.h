@@ -2,6 +2,7 @@
 #include "ros/ros.h"
 //Header of Int32 standard message
 #include "std_msgs/Float64.h"
+#include "std_msgs/String.h"
 
 
 class publisher
