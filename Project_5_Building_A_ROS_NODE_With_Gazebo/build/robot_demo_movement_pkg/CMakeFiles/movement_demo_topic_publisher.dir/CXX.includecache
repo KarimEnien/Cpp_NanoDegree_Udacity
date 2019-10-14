@@ -21,6 +21,8 @@ iostream
 /home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/src/robot_demo_movement_pkg/src/movement_demo_topic_publisher.cpp
 controller.h
 /home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/src/robot_demo_movement_pkg/src/controller.h
+string
+-
 
 /home/karim-enien/CppND/Project_5_Building_A_ROS_NODE_With_Gazebo/src/robot_demo_movement_pkg/src/publisher.h
 ros/ros.h
